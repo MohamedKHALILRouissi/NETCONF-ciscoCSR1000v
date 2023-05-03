@@ -7,6 +7,7 @@ m = manager.connect(
     host="192.168.56.102",
     port=830,
     username="cisco",
+    # script for testing only 
     password="cisco123!",
     # if the host key_verify true the device will ask you to verify ssh fingerprint 
     hostkey_verify=False
